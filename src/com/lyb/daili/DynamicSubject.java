@@ -1,0 +1,27 @@
+package com.lyb.daili;
+
+import java.lang.reflect.InvocationHandler;
+import java.lang.reflect.Method;
+
+public class DynamicSubject implements InvocationHandler {
+
+	private Object obj;//这是动态代理的好处，被封装的对象是Object类型，接受任意类型的对象
+	
+	//不带参数的构造方法
+	public DynamicSubject(){}
+	
+	//带参数的构造方法
+	public DynamicSubject(Object obj){
+		this.obj = obj;
+	}
+	
+	@Override
+	//这个方法不是我们显示的去调用
+	public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
+		System.out.println("before calling " + method);
+		method.invoke(obj, args);
+		System.out.println("after calling " + method);
+		return null;
+	}
+
+}

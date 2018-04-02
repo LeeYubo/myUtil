@@ -1,0 +1,27 @@
+单线程 && 多日志输出 ：
+
+2015-03-15 14:09:44,608 INFO Thread-0 com.lyb.log.Log -  --- Thread-0
+2015-03-15 14:11:23,719 INFO Thread-0 com.lyb.log.Log -         2        count= 10000  Thread-0
+
+2015-03-15 14:25:37,003 INFO Thread-0 com.lyb.log.Log -  --- Thread-0
+2015-03-15 14:28:14,260 INFO Thread-0 com.lyb.log.Log -         2        count= 10000  Thread-0
+
+2015-03-15 14:33:43,772 INFO Thread-0 com.lyb.log.Log -  --- Thread-0
+2015-03-15 14:35:16,483 INFO Thread-0 com.lyb.log.Log -         2        count= 10000  Thread-0
+
+2015-03-15 14:43:19,617 INFO Thread-0 com.lyb.log.Log -  --- Thread-0
+2015-03-15 14:44:58,442 INFO Thread-0 com.lyb.log.Log -         2        count= 10000  Thread-0
+
+耗时：99.109s 157.257s 92.709s 
+
+
+单线程 && 少日志输出 ：
+
+2015-03-15 14:20:31,713 INFO Thread-0 com.lyb.log.Log -  -- start -- Thread-0
+2015-03-15 14:20:42,135 INFO Thread-0 com.lyb.log.Log -  -- end -- Thread-0
+
+2015-03-15 14:23:52,618 INFO Thread-0 com.lyb.log.Log -  -- start -- Thread-0
+2015-03-15 14:24:03,041 INFO Thread-0 com.lyb.log.Log -  -- end -- Thread-0
+
+耗时：10.322s 10.423s
+

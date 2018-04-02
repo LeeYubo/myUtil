@@ -1,0 +1,24 @@
+6个线程 && 多日志输出 ：
+
+2015-03-15 14:57:37,620 INFO six   com.lyb.log.Log -  --- six  
+2015-03-15 14:58:53,082 INFO scond com.lyb.log.Log -         1        count= 10000  scond
+
+2015-03-15 15:22:40,816 INFO first com.lyb.log.Log -  --- first
+2015-03-15 15:23:53,258 INFO six   com.lyb.log.Log -         1        count= 10000  six  
+
+耗时：75.462s 72.442s 
+
+
+6个线程 && 少日志输出 ：
+
+
+2015-03-15 15:27:58,793 INFO four  com.lyb.log.Log -  -- start -- four 
+2015-03-15 15:28:00,526 INFO four  com.lyb.log.Log -  -- end -- four 
+
+2015-03-15 15:29:20,259 INFO five  com.lyb.log.Log -  -- start -- five 
+2015-03-15 15:29:22,046 INFO five  com.lyb.log.Log -  -- end -- five 
+
+2015-03-15 15:35:50,239 INFO four  com.lyb.log.Log -  -- start -- four 
+2015-03-15 15:35:51,998 INFO four  com.lyb.log.Log -  -- end -- four 
+
+耗时：1.733s 1.787s 1.759s

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="GBK"?>
+
+<configinfo> 
+  <servers> 
+    <server id="server1"> 
+      <hostname>web</hostname>  
+      <hostip>192.168.44.236</hostip>  
+      <username>root</username>  
+      <password>b7a41f9ebf4f220437a22fc3ffc429e7</password>  
+      <application id="Application1-1"> 
+        <appname>tomcat</appname>  
+        <logpath>/usr/local/tomcat/logs</logpath>  
+        <logname>catalina.out</logname>  
+        <stage>0</stage> 
+      </application> 
+    </server>  
+    <server id="server2"> 
+      <hostname>db1</hostname>  
+      <hostip>192.168.44.237</hostip>  
+      <username>root</username>  
+      <password>b7a41f9ebf4f220437a22fc3ffc429e7</password>  
+      <application id="Application2-1"> 
+        <appname>hatstar</appname>  
+        <logpath>/home/hatstar/log</logpath>  
+        <logname>ha_yyyymmdd</logname>  
+        <stage>1</stage> 
+      </application> 
+    </server>  
+    <server id="server3"> 
+      <hostname>db2</hostname>  
+      <hostip>192.168.44.238</hostip>  
+      <username>root</username>  
+      <password>b7a41f9ebf4f220437a22fc3ffc429e7</password>  
+      <application id="Application3-1"> 
+        <appname>hatstar</appname>  
+        <logpath>/home/hatstar/log</logpath>  
+        <logname>ha_yyyymmdd</logname>  
+        <stage>1</stage> 
+      </application> 
+    </server>  
+    <server id="server4"> 
+      <hostname>cdr</hostname>  
+      <hostip>192.168.44.240</hostip>  
+      <username>root</username>  
+      <password>b7a41f9ebf4f220437a22fc3ffc429e7</password>  
+      <application id="Application4-1"> 
+        <appname>BussCtrl</appname>  
+        <logpath>/usr/local/BussCtrl/log</logpath>  
+        <logname>CDMA_yyyymmdd.log</logname>  
+        <stage>1</stage> 
+      </application>  
+      <application id="Application4-2"> 
+        <appname>BussCtrl</appname>  
+        <logpath>/usr/local/BussCtrl/log</logpath>  
+        <logname>SOFTX3000_yyyymmdd.log</logname>  
+        <stage>1</stage> 
+      </application>  
+      <application id="Application4-3"> 
+        <appname>BussCtrl</appname>  
+        <logpath>/usr/local/BussCtrl/log</logpath>  
+        <logname>UC_yyyymmdd.log</logname>  
+        <stage>1</stage> 
+      </application>  
+      <application id="Application4-4"> 
+        <appname>CDMAAAA</appname>  
+        <logpath>/usr/local/CDMAAAA/log</logpath>  
+        <logname>yyyymmdd.log</logname>  
+        <stage>1</stage> 
+      </application>  
+      <application id="Application4-5"> 
+        <appname>CDMABill</appname>  
+        <logpath>/usr/local/CDMABill/log</logpath>  
+        <logname>yyyymmdd.log</logname>  
+        <stage>1</stage> 
+      </application>  
+      <application id="Application4-6"> 
+        <appname>UCBill</appname>  
+        <logpath>/usr/local/UCBill/log</logpath>  
+        <logname>yyyymmdd.log</logname>  
+        <stage>1</stage> 
+      </application>  
+      <application id="Application4-7"> 
+        <appname>NGNBill</appname>  
+        <logpath>/usr/local/NGNBill/log</logpath>  
+        <logname>yyyymmdd.log</logname>  
+        <stage>1</stage> 
+      </application> 
+    </server>  
+    <server id="server5"> 
+      <hostname>sip1</hostname>  
+      <hostip>192.168.44.241</hostip>  
+      <username>root</username>  
+      <password>b7a41f9ebf4f220437a22fc3ffc429e7</password>  
+      <application id="Application5-1"> 
+        <appname>hatstar</appname>  
+        <logpath>/home/hatstar/log</logpath>  
+        <logname>ha_yyyymmdd</logname>  
+        <stage>1</stage> 
+      </application> 
+    </server>  
+    <server id="server6"> 
+      <hostname>sip2</hostname>  
+      <hostip>192.168.44.242</hostip>  
+      <username>root</username>  
+      <password>b7a41f9ebf4f220437a22fc3ffc429e7</password>  
+      <application id="Application6-1"> 
+        <appname>hatstar</appname>  
+        <logpath>/home/hatstar/log</logpath>  
+        <logname>ha_yyyymmdd</logname>  
+        <stage>1</stage> 
+      </application>  
+      <application id="Application6-2"> 
+        <appname>freeswitch</appname>  
+        <logpath>/usr/local/freeswitch/log</logpath>  
+        <logname>freeswitch.log</logname>  
+        <stage>0</stage> 
+      </application> 
+    </server>  
+    <server id="server7"> 
+      <hostname>sip3</hostname>  
+      <hostip>192.168.44.243</hostip>  
+      <username>root</username>  
+      <password>b7a41f9ebf4f220437a22fc3ffc429e7</password>  
+      <application id="Application7-1"> 
+        <appname>freeswitch</appname>  
+        <logpath>/usr/local/freeswitch/log</logpath>  
+        <logname>freeswitch.log</logname>  
+        <stage>0</stage> 
+      </application> 
+    </server>  
+    <server id="server8"> 
+      <hostname>sip4</hostname>  
+      <hostip>192.168.44.244</hostip>  
+      <username>root</username>  
+      <password>b7a41f9ebf4f220437a22fc3ffc429e7</password>  
+      <application id="Application8-1"> 
+        <appname>freeswitch</appname>  
+        <logpath>/usr/local/freeswitch/log</logpath>  
+        <logname>freeswitch.log</logname>  
+        <stage>0</stage> 
+      </application>  
+      <application id="Application8-2"> 
+        <appname>tb</appname>  
+        <logpath>/usr/local/tb/logs</logpath>  
+        <logname>tb_log.log.yyyy-mm-dd</logname>  
+        <stage>1</stage> 
+      </application> 
+    </server> 
+  </servers>  
+  <system> 
+    <localpath>D:/HDFJ</localpath> 
+  </system> 
+</configinfo>
